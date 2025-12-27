@@ -45,7 +45,7 @@ class Galleries {
    
 const activeGalleries = new Galleries(
     'gallryContainer',
-    '/html/json/nature/DataOfNature.json'
+    '../html/json/nature/DataOfNature.json'
 );
 
 activeGalleries.activeApp();

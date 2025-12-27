@@ -3,52 +3,52 @@
         "perosonalGroup1":[
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal1.jpeg",
+                "img": "../img/test/personalPotograpy/personal1.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal2.jpeg",
+                "img": "../img/test/personalPotograpy/personal2.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal3.jpeg",
+                "img": "../img/test/personalPotograpy/personal3.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal4.jpeg",
+                "img": "../img/test/personalPotograpy/personal4.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal5.jpeg",
+                "img": "../img/test/personalPotograpy/personal5.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal6.jpeg",
+                "img": "../img/test/personalPotograpy/personal6.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal7.jpeg",
+                "img": "../img/test/personalPotograpy/personal7.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal8.jpeg",
+                "img": "../img/test/personalPotograpy/personal8.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal9.jpeg",
+                "img": "../img/test/personalPotograpy/personal9.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal10.jpeg",
+                "img": "../img/test/personalPotograpy/personal10.jpeg",
                 "title":"test title"
             }
         ],
@@ -56,52 +56,52 @@
         "perosonalGroup2":[
             {
                 "direction":"right",
-                "img": "/img/test/personalPotograpy/personal1.jpeg",
+                "img": "../img/test/personalPotograpy/personal1.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal2.jpeg",
+                "img": "../img/test/personalPotograpy/personal2.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal3.jpeg",
+                "img": "../img/test/personalPotograpy/personal3.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal4.jpeg",
+                "img": "../img/test/personalPotograpy/personal4.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal5.jpeg",
+                "img": "../img/test/personalPotograpy/personal5.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal6.jpeg",
+                "img": "../img/test/personalPotograpy/personal6.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal7.jpeg",
+                "img": "../img/test/personalPotograpy/personal7.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal8.jpeg",
+                "img": "../img/test/personalPotograpy/personal8.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal9.jpeg",
+                "img": "../img/test/personalPotograpy/personal9.jpeg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "/img/test/personalPotograpy/personal10.jpeg",
+                "img": "../img/test/personalPotograpy/personal10.jpeg",
                 "title":"test title"
             }
         ]   

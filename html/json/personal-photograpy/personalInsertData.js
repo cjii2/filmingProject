@@ -45,7 +45,7 @@ class Galleries {
    
 const activeGalleries = new Galleries(
     'gallryContainer',
-    '/html/json/personal-photograpy/personalData.json'
+    '../html/json/personal-photograpy/personalData.json'
 );
 
 activeGalleries.activeApp();
