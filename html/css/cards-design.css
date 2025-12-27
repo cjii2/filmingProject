@@ -20,7 +20,7 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    gap: 5em;
+    /* gap: 5em; */
     height: 100%;
     width: 100%;
     margin: 5em 0 0 0;
@@ -30,9 +30,9 @@ main{
     display: none;
 }
 .gallry-section{
-    margin: 0 auto;
+    margin: 0 auto clamp(1em , 3vw , 3em) auto;
     width: 96%;
-    height: 25%;
+    height: 22em;
     display: flex;
     overflow-x: hidden;
     border-radius: clamp(.5em , 10vw , 6em);
@@ -43,6 +43,7 @@ main{
     justify-content: center;
     align-items: center;
     /* border: 1px solid red; */
+    height: 100%;
     padding: 0.8em;
     gap: 1em;
 }
