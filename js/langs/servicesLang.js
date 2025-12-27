@@ -70,7 +70,7 @@ const cardsData = {
             priceText: "Starting from ",
             price: "2000",
             coin:"SAR",
-            imgLocation: "../../img/svg/serivec svgs/camera white.svg",
+            imgLocation: "../../img/svg/serivec-svgs/camera-white.svg",
         },
 
         {
@@ -80,7 +80,7 @@ const cardsData = {
             priceText: "Starting from ",
             price: "1500",
             coin:"SAR",
-            imgLocation: "../../img/svg/serivec svgs/box.svg",
+            imgLocation: "../../img/svg/serivec-svgs/box.svg",
         },
 
         {
@@ -90,7 +90,7 @@ const cardsData = {
             priceText: "Starting from ",
             price: "800",
             coin:"SAR",
-            imgLocation: "../../img/svg/serivec svgs/tow person.svg",
+            imgLocation: "../../img/svg/serivec-svgs/tow-person.svg",
         },
 
     ]
