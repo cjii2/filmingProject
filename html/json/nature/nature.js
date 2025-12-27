@@ -28,7 +28,7 @@ class Galleries {
                 this.imgContainer = document.querySelectorAll('.group');
             });
 
-            console.log(this.imgContainer)
+
             for(let index=0; index<this.items.length;index++)
             this.imgContainer.forEach((e)=>{
                 e.insertAdjacentHTML('beforeend',`

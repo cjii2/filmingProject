@@ -10,7 +10,6 @@ class Galleries {
     async loadElements() {
         const res = await fetch(this.jsonPath);
         const data = await res.json();
-        console.log(data);
         Object.entries(data.groups).forEach(([groupName, items]) => {
             this.groupName = groupName;
             this.items = items;
