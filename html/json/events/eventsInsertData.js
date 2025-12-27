@@ -49,3 +49,4 @@ const activeGalleries = new Galleries(
 );
 
 activeGalleries.activeApp();
+
