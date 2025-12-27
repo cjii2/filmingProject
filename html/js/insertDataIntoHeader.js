@@ -28,7 +28,7 @@ const headerData = {
         'events.html',
         'weddings.html',
         'nature.html',
-        '/index.html'
+        '../index.html'
         ]
 
 };
