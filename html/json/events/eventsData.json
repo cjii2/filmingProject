@@ -56,7 +56,7 @@
 
         "eventGroup2":[
             {
-                "direction":"left",
+                "direction":"right",
                 "img": "../img/test/events/event1.jpg",
                 "title":"test title"
             },
