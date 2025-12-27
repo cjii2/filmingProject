@@ -66,5 +66,9 @@
         height: fit-content;
     }
 
+    #Exhibition-section .cards-container .card .card-child-text{
+        opacity: 1;
+        z-index: 999;
+    }
     /* #Exhibition-section  */
 }
