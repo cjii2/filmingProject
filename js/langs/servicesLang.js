@@ -18,7 +18,7 @@ const cardsData = {
             priceText:"يبدأ من ",
             price:"5000",
             coin:"ريال",
-            imgLocation:"../../img/svg/serivec-svgs/heart.svg",
+            imgLocation:"../../img/svg/serivec-svgs/heart-temp.svg",
         },
 
         {
@@ -28,7 +28,7 @@ const cardsData = {
             priceText:"يبدأ من ",
             price:"2000",
             coin:"ريال",
-            imgLocation:"../../img/svg/serivec-svgs/camera-white.svg",
+            imgLocation:"../../img/svg/serivec-svgs/camera-temp.svg",
         },
 
         {
@@ -38,7 +38,7 @@ const cardsData = {
             priceText:"يبدأ من ",
             price:"1500",
             coin:"ريال",
-            imgLocation:"../../img/svg/serivec-svgs/box.svg",
+            imgLocation:"../../img/svg/serivec-svgs/box-temp.svg",
         },
 
         {
@@ -48,7 +48,7 @@ const cardsData = {
             priceText:"يبدأ من ",
             price:"800",
             coin:"ريال",
-            imgLocation:"../../img/svg/serivec-svgs/tow-person.svg",
+            imgLocation:"../../img/svg/serivec-svgs/tow-person-temp.svg",
         },
     ],
 
@@ -60,7 +60,7 @@ const cardsData = {
             priceText: "Starting from ",
             price: "5000",
             coin:"SAR",
-            imgLocation: "../../img/svg/serivec-svgs/heart.svg",
+            imgLocation: "../../img/svg/serivec-svgs/heart-temp.svg",
         },
 
         {
@@ -70,7 +70,7 @@ const cardsData = {
             priceText: "Starting from ",
             price: "2000",
             coin:"SAR",
-            imgLocation: "../../img/svg/serivec-svgs/camera-white.svg",
+            imgLocation: "../../img/svg/serivec-svgs/camera-temp.svg",
         },
 
         {
@@ -80,7 +80,7 @@ const cardsData = {
             priceText: "Starting from ",
             price: "1500",
             coin:"SAR",
-            imgLocation: "../../img/svg/serivec-svgs/box.svg",
+            imgLocation: "../../img/svg/serivec-svgs/box-temp.svg",
         },
 
         {
@@ -90,7 +90,7 @@ const cardsData = {
             priceText: "Starting from ",
             price: "800",
             coin:"SAR",
-            imgLocation: "../../img/svg/serivec-svgs/tow-person.svg",
+            imgLocation: "../../img/svg/serivec-svgs/tow-person-temp.svg",
         },
 
     ]
