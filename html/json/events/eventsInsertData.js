@@ -1,8 +1,8 @@
-import {Galleries} from '../../js/MainCreateCards'
+import {Galleries} from '../../js/MainCreateCards.js'
 
 const activeGalleries = new Galleries(
     'gallryContainer',
-    '../html/json/professional-photo/propicData.json'
+    '../../../html/json/events/eventsData.json'
 );
 
 activeGalleries.activeApp();
