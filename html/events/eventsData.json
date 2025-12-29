@@ -4,52 +4,52 @@
         "eventGroup1":[
             {
                 "direction":"left",
-                "img": "../img/test/events/event1.jpg",
+                "img": "../../img/test/events/event1.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event2.jpg",
+                "img": "../../img/test/events/event2.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event3.jpg",
+                "img": "../../img/test/events/event3.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event4.jpg",
+                "img": "../../img/test/events/event4.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event5.jpg",
+                "img": "../../img/test/events/event5.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event6.jpg",
+                "img": "../../img/test/events/event6.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event7.jpg",
+                "img": "../../img/test/events/event7.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event8.jpg",
+                "img": "../../img/test/events/event8.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event9.jpg",
+                "img": "../../img/test/events/event9.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event10.jpg",
+                "img": "../../img/test/events/event10.jpg",
                 "title":"test title"
             }
         ],
@@ -57,52 +57,52 @@
         "eventGroup2":[
             {
                 "direction":"right",
-                "img": "../img/test/events/event1.jpg",
+                "img": "../../img/test/events/event1.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event2.jpg",
+                "img": "../../img/test/events/event2.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event3.jpg",
+                "img": "../../img/test/events/event3.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event4.jpg",
+                "img": "../../img/test/events/event4.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event5.jpg",
+                "img": "../../img/test/events/event5.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event6.jpg",
+                "img": "../../img/test/events/event6.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event7.jpg",
+                "img": "../../img/test/events/event7.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event8.jpg",
+                "img": "../../img/test/events/event8.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event9.jpg",
+                "img": "../../img/test/events/event9.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/events/event10.jpg",
+                "img": "../../img/test/events/event10.jpg",
                 "title":"test title"
             }
         ]
