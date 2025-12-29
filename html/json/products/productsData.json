@@ -4,7 +4,7 @@
         "productGroup1":[
             {
                 "direction":"left",
-                "img": "../img/test/products/product1.jpg",
+                "img": "../../../img/test/products/Product1.jpg",
                 "title":"test title"
             },
             {
@@ -56,7 +56,7 @@
         "productGroup2":[
             {
                 "direction":"right",
-                "img": "../img/test/products/product1.jpg",
+                "img": "../../../img/test/products/Product1.jpg",
                 "title":"test title"
             },
             {
