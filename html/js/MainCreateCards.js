@@ -31,7 +31,7 @@ export class Galleries {
 
                 const img = document.createElement("img");
                 img.src = item.img;
-                img.alt = "";
+                img.alt = item.title;
 
                 figure.appendChild(img);
 
