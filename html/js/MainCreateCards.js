@@ -11,18 +11,21 @@ export class Galleries {
         for (const [groupName, items] of Object.entries(data.groups)) {
             // إنشاء السيكشن
             try{
+                if (!items || items.length === 0) continue;
 
+                const direction = items[0].direction || 'left';
                 const section = document.createElement("section");
-                section.className = `gallry-section ${items[0].direction}`;
+                section.className = `gallry-section ${direction}`;
     
                 const group1 = document.createElement("div");
-                group1.className = `group ${items[0].direction || 'left'}`;
+                group1.className = `group ${direction}`;
     
                 const group2 = document.createElement("div");
-                group2.className = `group ${items[0].direction || 'left'}`;
+                group2.className = `group ${direction}`;
                 group2.setAttribute("aria-hidden", "true");
     
-                section.append(group1, group2);
+                section.appendChild(group1);
+                section.appendChild(group2);
                 this.Father.appendChild(section);
     
                 // إضافة الصور
@@ -48,8 +51,6 @@ export class Galleries {
     }
 
     activeApp() {
-        document.addEventListener("DOMContentLoaded", () => {
-            this.loadElements();
-        });
+        this.loadElements();
     }
 }
