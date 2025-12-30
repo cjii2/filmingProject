@@ -8,37 +8,43 @@ export class Galleries {
         const res = await fetch(this.jsonPath + "?nocache=" + Date.now());
         const data = await res.json();
 
-        Object.entries(data.groups).forEach(([groupName, items]) => {
+        for (const [groupName, items] of Object.entries(data.groups)) {
             // إنشاء السيكشن
-            const section = document.createElement("section");
-            section.className = `gallry-section ${items[0].direction}`;
+            try{
 
-            const group1 = document.createElement("div");
-            group1.className = `group ${items[0].direction || 'left'}`;
+                const section = document.createElement("section");
+                section.className = `gallry-section ${items[0].direction}`;
+    
+                const group1 = document.createElement("div");
+                group1.className = `group ${items[0].direction || 'left'}`;
+    
+                const group2 = document.createElement("div");
+                group2.className = `group ${items[0].direction || 'left'}`;
+                group2.setAttribute("aria-hidden", "true");
+    
+                section.append(group1, group2);
+                this.Father.appendChild(section);
+    
+                // إضافة الصور
+                for (const item of items) {
 
-            const group2 = document.createElement("div");
-            group2.className = `group ${items[0].direction || 'left'}`;
-            group2.setAttribute("aria-hidden", "true");
-
-            section.append(group1, group2);
-            this.Father.appendChild(section);
-
-            // إضافة الصور
-            items.forEach(item => {
-                const figure = document.createElement("figure");
-                figure.className = "img-container";
-
-                const img = document.createElement("img");
-                img.src = item.img;
-                img.alt = item.title;
-
-                figure.appendChild(img);
-
-                group1.appendChild(figure.cloneNode(true));
-                group2.appendChild(figure);
-            });
-
-        });
+                    const figure = document.createElement("figure");
+                    figure.className = "img-container";
+    
+                    const img = document.createElement("img");
+                    img.src = item.img;
+                    img.alt = item.title || 'Image';
+    
+                    figure.appendChild(img);
+    
+                    group1.appendChild(figure.cloneNode(true));
+                    group2.appendChild(figure);
+                };
+            }
+            catch(err){
+                console.error("Error creating gallery section:",groupName, err);
+            }
+        };
     }
 
     activeApp() {
