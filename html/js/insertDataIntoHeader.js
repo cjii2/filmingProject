@@ -22,12 +22,12 @@ const headerData = {
         'Pro Photography'],
         
     links:[
-        'professional-photograpy.html',
-        'personal-photograpy.html',
-        'product.html',
-        'events.html',
-        'weddings.html',
-        'nature.html',
+        '../professional-photo/professional-photograpy.html',
+        '../personal-photograpy/personal-photograpy.html',
+        '../products/product.html',
+        '../events/events.html',
+        '../weddings/weddings.html',
+        '../nature/nature.html',
         '../../index.html'
         ]
 

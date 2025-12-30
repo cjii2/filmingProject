@@ -4,104 +4,104 @@
         "productGroup1":[
             {
                 "direction":"left",
-                "img": "../img/test/products/Product1.jpg",
+                "img": "../../img/test/products/Product1.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product2.jpg",
+                "img": "../../img/test/products/product2.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product3.jpg",
+                "img": "../../img/test/products/product3.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product4.png",
+                "img": "../../img/test/products/product4.png",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product5.jpg",
+                "img": "../../img/test/products/product5.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product6.webp",
+                "img": "../../img/test/products/product6.webp",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product7.png",
+                "img": "../../img/test/products/product7.png",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product8.webp",
+                "img": "../../img/test/products/product8.webp",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product9.jpg",
+                "img": "../../img/test/products/product9.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product10.webp",
+                "img": "../../img/test/products/product10.webp",
                 "title":"test title"
             }
         ],
         "productGroup2":[
             {
                 "direction":"right",
-                "img": "./img/test/products/Product1.jpg",
+                "img": "../../img/test/products/Product1.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product2.jpg",
+                "img": "../../img/test/products/product2.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product3.jpg",
+                "img": "../../img/test/products/product3.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product4.png",
+                "img": "../../img/test/products/product4.png",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product5.jpg",
+                "img": "../../img/test/products/product5.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product6.webp",
+                "img": "../../img/test/products/product6.webp",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product7.png",
+                "img": "../../img/test/products/product7.png",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product8.webp",
+                "img": "../../img/test/products/product8.webp",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product9.jpg",
+                "img": "../../img/test/products/product9.jpg",
                 "title":"test title"
             },
             {
                 "direction":"left",
-                "img": "../img/test/products/product10.webp",
+                "img": "../../img/test/products/product10.webp",
                 "title":"test title"
             }
         ]

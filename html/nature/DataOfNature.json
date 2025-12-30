@@ -4,61 +4,61 @@
 
             {
                 "direction":"left",
-                "img": "../img/test/nature/nature1.jpeg",
+                "img": "../../img/test/nature/nature1.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"left",
-                "img":"../img/test/nature/nature2.jpeg",
+                "img":"../../img/test/nature/nature2.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"left",
-                "img":"../img/test/nature/nature3.jpeg",
+                "img":"../../img/test/nature/nature3.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"left",
-                "img":"../img/test/nature/nature4.jpeg",
+                "img": "../../img/test/nature/nature4.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"left",
-                "img":"../img/test/nature/nature5.jpeg",
+                "img":"../../img/test/nature/nature5.jpeg",
                 "title":"test title"
             },
             
             {
                 "direction":"left",
-                "img":"../img/test/nature/nature6.jpeg",
+                "img":"../../img/test/nature/nature6.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"left",
-                "img":"../img/test/nature/nature7.jpeg",
+                "img":"../../img/test/nature/nature7.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"left",
-                "img":"../img/test/nature/nature8.jpeg",
+                "img":"../../img/test/nature/nature8.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"left",
-                "img":"../img/test/nature/nature9.jpeg",
+                "img":"../../img/test/nature/nature9.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"left",
-                "img":"../img/test/nature/nature10.jpeg",
+                "img":"../../img/test/nature/nature10.jpeg",
                 "title":"test title"
             }
         ],
@@ -66,61 +66,61 @@
         "natureGroup2":[
             {
                 "direction":"right",
-                "img": "../img/test/nature/nature1.jpeg",
+                "img": "../../img/test/nature/nature1.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"right",
-                "img":"../img/test/nature/nature2.jpeg",
+                "img":"../../img/test/nature/nature2.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"right",
-                "img":"../img/test/nature/nature3.jpeg",
+                "img":"../../img/test/nature/nature3.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"right",
-                "img":"../img/test/nature/nature4.jpeg",
+                "img":"../../img/test/nature/nature4.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"right",
-                "img":"../img/test/nature/nature5.jpeg",
+                "img":"../../img/test/nature/nature5.jpeg",
                 "title":"test title"
             },
             
             {
                 "direction":"right",
-                "img":"../img/test/nature/nature6.jpeg",
+                "img":"../../img/test/nature/nature6.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"right",
-                "img":"../img/test/nature/nature7.jpeg",
+                "img":"../../img/test/nature/nature7.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"right",
-                "img":"../img/test/nature/nature8.jpeg",
+                "img":"../../img/test/nature/nature8.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"right",
-                "img":"../img/test/nature/nature9.jpeg",
+                "img":"../../img/test/nature/nature9.jpeg",
                 "title":"test title"
             },
     
             {
                 "direction":"right",
-                "img":"../img/test/nature/nature10.jpeg",
+                "img":"../../img/test/nature/nature10.jpeg",
                 "title":"test title"
             }
         ]
