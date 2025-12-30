@@ -20,17 +20,6 @@ const headerData = {
         'Products',
         'Portraits',
         'Pro Photography'],
-        
-    links:[
-        '../professional-photo/professional-photograpy.html',
-        '../personal-photograpy/personal-photograpy.html',
-        '../products/product.html',
-        '../events/events.html',
-        '../weddings/weddings.html',
-        '../nature/nature.html',
-        '../../index.html'
-        ]
-
 };
 
 // اللغة التي يتم اختيارها من القائمة
@@ -44,7 +33,7 @@ if(languageBtn){
             document.body.style.textAlign='left';
         };
 
-        insertDataIntoHeader(langSelected);
+        ChageLang(langSelected);
     });
 };
 
@@ -55,23 +44,12 @@ if(getLocalLang === null || getLocalLang === undefined ){
 };
 languageBtn.value = getLocalLang;
 
-// لصنع العناصر من خلال ال js 
+
 //  لا يوجد ضرورة للتعديل على هذا السكربت لما لم يكن لديك خبرة كافية
-function insertDataIntoHeader(lang){
-    CreateHeader.innerHTML="";
-    headerData[lang].forEach((el,index)=>{
-        CreateHeader.insertAdjacentHTML('afterbegin',`
-            <li ><a class="nav-item" href="${headerData.links[index]}">${el}</a></li>
-            `);
-        // console.log(headerData.links[index])
+function ChageLang(lang){
+    document.querySelectorAll('.nav-item').forEach((el ,i)=>{
+        el.textContent=headerData[lang][i];
     });
-    
-    function changeLanguage(){
-        document.querySelectorAll('.nav-item').forEach((el ,i)=>{
-            el.textContent=headerData[lang][i];
-        });
-    };
-    changeLanguage(lang);
 };
 
-insertDataIntoHeader(language);
+ChageLang(language);
