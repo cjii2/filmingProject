@@ -38,7 +38,7 @@ export class Galleries {
                     figure.appendChild(img);
     
                     group1.appendChild(figure.cloneNode(true));
-                    group2.appendChild(figure);
+                    group2.appendChild(figure.cloneNode(true));
                 };
             }
             catch(err){
