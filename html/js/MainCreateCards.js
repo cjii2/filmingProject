@@ -29,20 +29,29 @@ export class Galleries {
                 this.Father.appendChild(section);
     
                 // إضافة الصور
-                for (const item of items) {
+               for (const item of items) {
 
-                    const figure = document.createElement("figure");
-                    figure.className = "img-container";
-    
-                    const img = document.createElement("img");
-                    img.src = item.img;
-                    img.alt = item.title || 'Image';
-    
-                    figure.appendChild(img);
-    
-                    group1.appendChild(figure.cloneNode(true));
-                    group2.appendChild(figure.cloneNode(true));
-                };
+                    const fig1 = document.createElement("figure");
+                    fig1.className = "img-container";
+
+                    const img1 = document.createElement("img");
+                    img1.src = item.img;
+                    img1.alt = item.title || "Image";
+
+                    fig1.appendChild(img1);
+                    group1.appendChild(fig1);
+
+                    const fig2 = document.createElement("figure");
+                    fig2.className = "img-container";
+
+                    const img2 = document.createElement("img");
+                    img2.src = item.img;
+                    img2.alt = item.title || "Image";
+
+                    fig2.appendChild(img2);
+                    group2.appendChild(fig2);
+                }
+
             }
             catch(err){
                 console.error("Error creating gallery section:",groupName, err);
