@@ -10,6 +10,7 @@ export class Galleries {
 
         Object.entries(data.groups).forEach(([groupName, items]) => {
             // console.log(groupName)
+            document.querySelector('.mobile-console').innerHTML += `<p>Loading ${groupName} photos...</p>`;
             // إنشاء السيكشن
             const section = document.createElement("section");
             section.className = `gallry-section ${items[0].direction}`;
