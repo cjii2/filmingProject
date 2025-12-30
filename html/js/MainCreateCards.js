@@ -9,17 +9,15 @@ export class Galleries {
         const data = await res.json();
 
         Object.entries(data.groups).forEach(([groupName, items]) => {
-            // console.log(groupName)
-            document.querySelector('.mobile-console').innerHTML += `<p>Loading ${groupName} photos...</p>`;
             // إنشاء السيكشن
             const section = document.createElement("section");
             section.className = `gallry-section ${items[0].direction}`;
 
             const group1 = document.createElement("div");
-            group1.className = "group left";
+            group1.className = `group ${items[0].direction || 'left'}`;
 
             const group2 = document.createElement("div");
-            group2.className = "group left";
+            group2.className = `group ${items[0].direction || 'left'}`;
             group2.setAttribute("aria-hidden", "true");
 
             section.append(group1, group2);
