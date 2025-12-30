@@ -1,8 +1,9 @@
 import {Galleries} from '../js/MainCreateCards.js'
 
 const activeGalleries = new Galleries(
-    'gallryContainer',
+    '.group',
     'DataOfNature.json'
 );
+
 
 activeGalleries.activeApp();
